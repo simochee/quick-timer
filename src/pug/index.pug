@@ -1,0 +1,19 @@
+doctype html
+html(lang="ja")
+    head
+        meta(charset="utf-8")
+        title Quick Timer
+        link(rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css")
+        link(rel="stylesheet" href="./stylesheets/main.css")
+    body
+        .timer-body
+            h1 Quick Timer
+            .timer 00:00:00
+            ul.footer-nav
+                li.nav-item
+                    button#shareTimer(type="button"): span.ion-share
+                li.nav-item
+                    button#preference(type="button"): span.ion-gear-b
+        .new-timer
+            a(href="." target="_blank"): span.ion-plus
+        script(src="./scripts/bundle.js")
