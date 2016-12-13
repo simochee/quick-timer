@@ -44,4 +44,10 @@ npm i -S jquery
 
 ### Pugを書く
 
-`src/pug/index.pug`を参照
+`src/pug/index.pug`を参照のこと
+
+## Sassを書く
+
+* 勝手にやってくれ
+
+Githubから一通りダウンロード
